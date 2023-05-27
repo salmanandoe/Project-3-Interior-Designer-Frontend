@@ -1,0 +1,14 @@
+.body {
+  background-color: #010307;
+  padding: 10em;
+}
+
+.footer {
+  background-color: rgba(121, 121, 114, 0.773);
+  color: aliceblue;
+}
+
+.navbar {
+  background-color: rgba(121, 121, 114, 0.773);
+  color: aliceblue;
+}
