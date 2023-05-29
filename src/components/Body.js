@@ -1,4 +1,7 @@
-import React from 'react'
+// rfce - imports template
+
+import React from 'react'  
+//can remove above line from all components since they auto fill with template
 
 function Body() {
   return (
@@ -9,3 +12,5 @@ function Body() {
 }
 
 export default Body;
+
+//Body can just be App.. let's see...

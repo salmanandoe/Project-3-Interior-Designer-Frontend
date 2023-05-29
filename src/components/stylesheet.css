@@ -1,5 +1,5 @@
-.body {
-  background-color: #010307;
+.app {
+  background-color: #0b1529;
   padding: 10em;
 }
 
@@ -11,4 +11,19 @@
 .navbar {
   background-color: rgba(121, 121, 114, 0.773);
   color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.about-section {
+  color:antiquewhite;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-img{
+  border-radius: 50px;
+  width: 100%;
+  max-width: 600px;
 }
