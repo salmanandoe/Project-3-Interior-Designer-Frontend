@@ -1,22 +1,29 @@
 import './components/stylesheet.css';
+import { Routes, Route} from "react-router-dom";
 import Body from './components/Body';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Home from './Pages/Home';
+import Gallery from './Pages/Gallery';
+import Contact from './Pages/Contact';
+import DetailPage from './Pages/DetailPage';
+
 
 function App() {
   return (
 
-    <>
-    <div className="app">
+    <div className='app'>
+      <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/gallery/detail" element={<DetailPage />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
 
-    <Navbar />
-    <Home />
-    <Footer />
-
+          </Routes>
+      <Footer />
     </div>
 
-    </>
     
     // <div className="App">
     //   <header className="App-header">

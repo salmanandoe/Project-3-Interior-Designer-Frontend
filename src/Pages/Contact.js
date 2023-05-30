@@ -4,3 +4,12 @@
 // span is in-line 
 // default refreshes form after click
 // can store array of objects in separate components and then import in function
+
+
+function Contact() {
+  return (
+    <div>Contact</div>
+  )
+}
+
+export default Contact

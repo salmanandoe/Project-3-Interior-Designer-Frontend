@@ -27,3 +27,14 @@
   width: 100%;
   max-width: 600px;
 }
+
+.gallery {
+  color: aliceblue;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: 1fr;
+}
+
+.img-preview {
+  height: 100px; 
+}
