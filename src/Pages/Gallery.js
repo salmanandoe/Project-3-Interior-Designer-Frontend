@@ -31,7 +31,7 @@ const showImage = (room) => {
                 <div>
                     {/* {img.name} */}
                     <Link to={`/gallery/detail?id=${img._id}`}>
-                    <img className="img-preview" src={img.imageURL}></img>
+                        <img className="img-preview" src={img.imageURL}></img>
                     </Link>
                 </div>
             )
@@ -47,27 +47,27 @@ const showImage = (room) => {
     <div className="gallery">
     
             <h3> 
-                Bedrooms
+                BEDROOMS
             </h3>
                 {showImage('bedroom')}
             <h3> 
-                Bathrooms
+                BATHROOMS
             </h3>
                 {showImage('bathroom')}
             <h3> 
-                Living Rooms
+                LIVING ROOMS
             </h3>
                 {showImage('living room')}
             <h3> 
-                Kitchens
+                KITCHENS
             </h3>
                 {showImage('kitchen')}
             <h3> 
-                Dining Rooms
+                DINING ROOMS
             </h3>
                 {showImage('dining room')}
             <h3>
-                Laundry Rooms
+                LAUNDRY ROOMS
             </h3>
                 {showImage('laundry room')}
         

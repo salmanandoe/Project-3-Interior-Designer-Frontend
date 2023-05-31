@@ -28,15 +28,15 @@ useEffect(() => {
 
     return (
         <>
-    <div className="detail-page">
-        <img src = {imageData.imageURL} />
-    </div>
-    
-    <div className="back-button">
-        <Link to="/gallery">
-            <h3>Back to gallery</h3>
-        </Link>
-    </div>
+            <div>
+                <img className="detail-page" src={imageData.imageURL} />
+            </div>
+            
+            <div>
+                <Link className="back-button" to="/gallery">
+                    <h3>Back to gallery</h3>
+                </Link>
+            </div>
     </>
   )
 }

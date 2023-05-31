@@ -28,7 +28,9 @@ function Contact () {
         <h3>GET IN TOUCH</h3>
         </div>
 
+
         <form>
+        <div className="field1">
             <label>
                 <span> </span>
                 <input
@@ -68,11 +70,12 @@ function Contact () {
                 />
             </label>
             <br></br>
-            <button>
+        </div>
+            <button className="submit">
                 SUBMIT
             </button>
         </form>
-        </>
+    </>
     )
 }
 
