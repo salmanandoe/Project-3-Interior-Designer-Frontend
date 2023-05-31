@@ -1,5 +1,5 @@
 import './components/stylesheet.css';
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Body from './components/Body';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -19,7 +19,6 @@ function App() {
             <Route path="/gallery/detail" element={<DetailPage />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
-
           </Routes>
       <Footer />
     </div>

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom"
 
 function DetailPage() {
 const [imageData, setImageData] = useState([])
@@ -24,13 +25,17 @@ useEffect(() => {
 
 
     return (
-
+        <>
     <div className="detail-page">
-
         <img src = {imageData.imageURL} />
-    
-        
     </div>
+    
+    <div className="back-button">
+        <Link to="/gallery">
+            <h3>Back to gallery</h3>
+        </Link>
+    </div>
+    </>
   )
 }
 
