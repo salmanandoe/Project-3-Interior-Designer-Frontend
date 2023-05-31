@@ -6,7 +6,7 @@ function Gallery() {
 const [imageData, setImageData] = useState([])
 
 const fetchDesignImg = async () => {
-    const url = `https://ntrdsn.onrender.com:10000/design`
+    const url = `https://ntrdsn.onrender.com/design`
     try {
         const response = await fetch(url)
         const data = await response.json()
