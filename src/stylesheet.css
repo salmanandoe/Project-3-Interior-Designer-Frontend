@@ -66,14 +66,30 @@
   padding-left: 1.5rem;
 }
 
+.about-section {
+  text-align: center;
+  color: #eeeeee;
+  padding: 3rem;
+}
+
+.profile-img{
+  border-radius: 50px;
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem;
+}
+
+.box {
+  margin: 2rem;
+  text-align: justify;
+}
 
 
-
-.about-me {
+/* .about-me {
   font-family: 'Quicksand', sans-serif;
 
 }
-
+ */
 
 /* .footer {
   background-color: #d4d4d4;
@@ -83,17 +99,13 @@
 
 
 
-.about-section {
+/* .about-section {
   color: #d4d4d4;
   text-align: center;
   width: 100%;
 }
 
-.profile-img{
-  border-radius: 50px;
-  width: 100%;
-  max-width: 600px;
-}
+
 
 .gallery {
   color: #d4d4d4;
@@ -108,4 +120,4 @@
 
 .contact-form {
   color: aliceblue;
-}
+} */
