@@ -8,7 +8,8 @@ const fetchDesignImg = async () => {
     let params = new URLSearchParams(document.location.search);
     let id = params.get("id")
     console.log(id)
-    const url = 'http://localhost:4000/design/id/' + id
+    const url = `https://ntrdsn.onrender.com:10000/design/id/${id}`
+    
     try {
         const response = await fetch(url)
         const data = await response.json()
