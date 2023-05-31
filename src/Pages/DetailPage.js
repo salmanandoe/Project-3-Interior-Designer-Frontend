@@ -39,4 +39,4 @@ useEffect(() => {
   )
 }
 
-export default DetailPage
+export default DetailPage;

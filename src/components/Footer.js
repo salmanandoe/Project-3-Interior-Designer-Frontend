@@ -5,8 +5,9 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <div className="footer">
-        <h3>NTRDSN</h3>
+      <div>
+        <hr></hr>
+        <img className="logo" src="/images/ntrdsn - black_gray.png" />
       </div>
     </>
 

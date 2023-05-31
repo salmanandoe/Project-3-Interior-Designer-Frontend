@@ -1,16 +1,27 @@
 .app {
-  background-color: #0b1529;
+  /* background-color: #222831; */
+  background-color: #0d0f13;
   padding: 10em;
 }
 
+.logo {
+  width: 20%;
+  height: auto;
+}
+
 .footer {
-  background-color: rgba(121, 121, 114, 0.773);
-  color: aliceblue;
+  background-color: #eeeeee;
+  color: #0d0f13;
+  display: flex;
+}
+
+.nav-links {
+  font-weight: 400;
 }
 
 .navbar {
-  background-color: rgba(121, 121, 114, 0.773);
-  color: aliceblue;
+  background-color: #eeeeee;
+  color: #0d0f13;
   display: flex;
   justify-content: space-around;
   flex-direction: row;

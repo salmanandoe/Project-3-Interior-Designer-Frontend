@@ -73,4 +73,4 @@ const showImage = (room) => {
   )
 }
 
-export default Gallery
+export default Gallery;
