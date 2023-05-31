@@ -55,9 +55,19 @@
   color: rgb(119, 117, 129);
 }
 
-.copyright {
-  padding-right: 20%;
+.footer-menu {
+  margin-left: auto;
+  padding-right: 4rem;
 }
+
+.footer-menu li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 1.5rem;
+}
+
+
+
 
 .about-me {
   font-family: 'Quicksand', sans-serif;
@@ -65,11 +75,11 @@
 }
 
 
-.footer {
+/* .footer {
   background-color: #d4d4d4;
   color: #0d0f13;
   display: flex;
-}
+} */
 
 
 
