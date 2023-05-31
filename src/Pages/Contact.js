@@ -23,16 +23,13 @@ function Contact () {
     }
 
     return (
-        <>
+    <>
         <div className="contact-form">
-        <h3>GET IN TOUCH</h3>
+            <h3>GET IN TOUCH</h3>
         </div>
-
-
         <form>
-        <div className="field1">
+        <div className="field">
             <label>
-                <span> </span>
                 <input
                     type="text"
                     placeholder="NAME"
@@ -42,7 +39,6 @@ function Contact () {
             </label>
             <br></br>
             <label>
-                <span> </span>
                 <input
                     type="text"
                     placeholder="EMAIL"
@@ -52,8 +48,7 @@ function Contact () {
             </label>
             <br></br>
             <label onChange={handleChange}>
-                <span> </span>
-                <select name="reason">
+                <select className="dropdown" name="reason">
                     <option value="Reason">REASON</option>
                     <option value="Design Services">DESIGN SERVICES</option>
                     <option value="Leave Feedback">LEAVE FEEDBACK</option>
@@ -61,8 +56,7 @@ function Contact () {
             </label>
             <br></br>
             <label>
-                <span> </span>
-                <input
+                <input className="details"
                     type="text"
                     placeholder="PROVIDE DETAILS HERE"
                     name="comments"
