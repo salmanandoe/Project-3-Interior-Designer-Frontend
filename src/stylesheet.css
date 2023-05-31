@@ -1,8 +1,26 @@
-.app {
-  /* background-color: #37414f; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0rem;
   background-color: #222831;
-  padding: 10em;
   font-family: 'Quicksand', sans-serif;
+}
+
+.navigation {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0rem 0rem;
+  background-color: #eeeeee;
+  color: d4d4d4;
 }
 
 .logo {
@@ -10,10 +28,42 @@
   height: auto;
 }
 
+.navigation-menu {
+  margin-left: auto;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1 rem;
+}
+
+.link-style {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-right: 3rem;
+  color: #0d0f13;
+}
+
+.link-style:hover {
+  color: rgb(119, 117, 129);
+}
+
+.copyright {
+  padding-right: 20%;
+}
+
 .about-me {
   font-family: 'Quicksand', sans-serif;
 
 }
+
 
 .footer {
   background-color: #d4d4d4;
@@ -21,19 +71,7 @@
   display: flex;
 }
 
-.nav-links {
-  font-weight: 400;
-}
 
-.navbar {
-  background-color: #eeeeee;
-  color: #0d0f13;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-}
 
 .about-section {
   color: #d4d4d4;

@@ -4,12 +4,13 @@ import React from 'react'
 
 function Footer() {
   return (
-    <>
-      <div>
-        <hr></hr>
-        <img className="logo" src="/images/ntrdsn - black_gray.png" />
-      </div>
-    </>
+      <nav className="navigation">
+           <img className="logo" src="/images/ntrdsn - black_gray.png" />
+      
+        <div className="copyright">
+            <h6>© 2023 NTR DSN. All Rights Reserved    Privacy Policy  |  Terms & Conditions</h6>
+        </div>
+      </nav>  
 
   )
 }
