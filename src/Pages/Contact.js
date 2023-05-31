@@ -20,7 +20,6 @@ function Contact () {
             ...previousFormState,
             [e.target.name]: e.target.value
         }))
-        console.log(contactForm)
     }
 
     return (

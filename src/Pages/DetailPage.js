@@ -7,7 +7,7 @@ const [imageData, setImageData] = useState([])
 const fetchDesignImg = async () => {
     let params = new URLSearchParams(document.location.search);
     let id = params.get("id")
-    console.log(id)
+    
     const backendUrl = process.env.REACT_APP_BACKEND_URL
     const url = `${backendUrl}/design/id/${id}`
     
@@ -15,7 +15,7 @@ const fetchDesignImg = async () => {
         const response = await fetch(url)
         const data = await response.json()
         setImageData(data)
-        console.log(data)
+        
     } catch (error) {
         console.log(error)
     }

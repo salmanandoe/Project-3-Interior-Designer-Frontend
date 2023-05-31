@@ -8,13 +8,12 @@ const [imageData, setImageData] = useState([])
 const fetchDesignImg = async () => {
     const backendUrl = process.env.REACT_APP_BACKEND_URL
     const url = `${backendUrl}/design`
-    console.log(process.env.NODE_ENV)
-    console.log(backendUrl)
+    
     try {
         const response = await fetch(url)
         const data = await response.json()
         setImageData(data)
-        console.log(data)
+        
     } catch (error) {
         console.log(error)
     }
